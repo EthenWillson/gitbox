@@ -1,0 +1,23 @@
+git
+username：Ethen Willson
+email：2281881673@qq.com
+
+一、设置用户名和邮箱：
+$ git config --global user.name ""
+$ git config --global user.email ""
+
+二、创建git版本库
+1.创建一个空目录
+$ mkdir gitbox(目录的名字)
+$ cd gitbox
+$ pwd //用于显示当前目录
+
+2.通过git init命令把该目录变成git可以管理的仓库
+$ git init
+
+三、把文件添加到版本库（要放入版本库目录或者子目录下）
+1.把文件添加到仓库
+$ git add gitinf.txt(文件名)
+
+2.把文件提交到仓库
+$ git commit -m "这里写你想要写的信息"
