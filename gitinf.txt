@@ -3,7 +3,7 @@ username：Ethen Willson
 email：2281881673@qq.com
 
 一、设置用户名和邮箱：
-$ git config --global user.name ""
+$ git config --global user.name "Ethen Willson"
 $ git config --global user.email ""
 
 二、创建git版本库
@@ -21,3 +21,17 @@ $ git add gitinf.txt(文件名)
 
 2.把文件提交到仓库
 $ git commit -m "这里写你想要写的信息"
+
+四、修改文件&更新版本库
+1.修改文件
+2.通过git status命令掌握仓库当前状态
+$ git status 
+
+3.看具体修改了什么内容
+$ git diff
+
+4.重新提交
+$ git add gitinf.txt（文件名）
+$ git commit -m ""
+
+五、版本回退
