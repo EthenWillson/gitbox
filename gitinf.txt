@@ -35,3 +35,20 @@ $ git add gitinf.txt（文件名）
 $ git commit -m ""
 
 五、版本回退
+1.用git log命令查看历史纪录
+$ git log
+嫌信息太多加上：--pretty=oneline 参数
+一大串109ab...的是commit id（版本号）
+
+2.回退版本
+在git中，HEAD表示当前版本（就是最新提交的），上一个版本就是HEAD^，上上个版本就是HEAD^^，上100个版本就是HEAD~100
+
+使用git reset命令回退到上一个版本
+$ git reset --hard HEAD^
+
+六、恢复原先版本
+1.找到需要恢复的版本的commit id
+$ git reflog  /*查看你每一次命令的记录*/
+
+2.恢复版本
+$ git reset --hard 1094adf //你要恢复的版本号
