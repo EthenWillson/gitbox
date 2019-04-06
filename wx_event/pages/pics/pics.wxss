@@ -1,4 +1,10 @@
 /* pages/pics/pics.wxss */
+.picsflow{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
 .pics{
   height:540rpx;
   width: 960rpx;
