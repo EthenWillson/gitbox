@@ -1,3 +1,2 @@
 <!--pages/stream/stream.wxml-->
-<text>stream</text>
 <view class="number" wx:for="{{number}}">{{item}}</view>
