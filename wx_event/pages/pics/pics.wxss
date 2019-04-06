@@ -1,0 +1,5 @@
+/* pages/pics/pics.wxss */
+.pics{
+  height:540rpx;
+  width: 960rpx;
+}

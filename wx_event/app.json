@@ -1,11 +1,30 @@
 {
   "pages": [
-    "pages/stream/stream"
+    "pages/stream/stream",
+    "pages/pics/pics"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "瀑布流实验",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar":{
+    "list":[
+      {
+        "text":"数字瀑布流",
+        "pagePath":"pages/stream/stream",
+        "iconPath":"images/icons/help.png",
+        "selectedIconPath":"images/icons/help_change.png"
+      },
+      {
+        "text": "图片瀑布流",
+        "pagePath": "pages/pics/pics",
+        "iconPath": "images/icons/return.png",
+        "selectedIconPath": "images/icons/return_change.png"
+      }
+    ],
+    "color":"black",
+    "selectedColor":"green"
   }
 }

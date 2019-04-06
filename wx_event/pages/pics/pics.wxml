@@ -1,0 +1,5 @@
+<!--pages/pics/pics.wxml-->
+<view class="picsflow" wx:for="{{pics}}">
+  <image src="{{item.src}}" class="pics" style='display:block;'></image>
+  <text>{{item.name}}</text>
+</view>
