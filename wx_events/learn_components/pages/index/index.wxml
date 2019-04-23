@@ -1,0 +1,16 @@
+<!--pages/index/index.wxml-->
+<view>
+  <input type='text' value="{{defaultname}}" class="inputname" bindinput='userNameInput' bindfocus="focus"></input>
+  <view wx:if="{{alert}}" class="alert">Please input your name!</view>
+  <button type="prmary" bindtap="showDialog">Login!</button>
+</view>
+<view>
+  <dialog id="dialog" 
+    title="Welcome" 
+    content="Welcome,{{name}}" 
+    confirmText="Done"
+    bind:cancelEvent="_cancelEvent"  
+    bind:confirmEvent="_confirmEvent"
+    ></dialog>
+</view>
+<view wx:if="{{doneornot}}" class="done">Done!</view>

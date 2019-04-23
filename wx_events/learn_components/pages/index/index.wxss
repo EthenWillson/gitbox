@@ -1,0 +1,16 @@
+/* pages/index/index.wxss */
+.inputname{
+  width: 500rpx;
+  border: 2rpx solid #000;
+  margin: 50rpx auto;
+  border-radius:10rpx; 
+  text-align: center;
+}
+.done{
+  text-align: center;
+  color:red;
+}
+.alert{
+  text-align: center;
+  color:red;
+}
